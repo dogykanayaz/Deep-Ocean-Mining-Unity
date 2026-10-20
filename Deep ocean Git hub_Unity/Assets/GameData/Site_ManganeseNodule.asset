@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7618485c4b99ec049b0859ac2135a9aa, type: 3}
+  m_Name: Site_ManganeseNodule
+  m_EditorClassIdentifier: Assembly-CSharp::DeepOceanMining.Data.MiningSiteData
+  siteId: site_id
+  displayName: "Manganez Nod\xFCl Sahas\u0131"
+  description: 
+  icon: {fileID: 0}
+  resource: {fileID: 11400000, guid: 87f56904227b54a4cb2d60cac1e875c2, type: 2}
+  unlockOrder: 1
+  unlockCost: 0
+  unlockedByDefault: 1
+  travelTime: 5
+  miningRate:
+    displayName: Mining Rate
+    unitSuffix: /sec
+    startingLevel: 1
+    maxLevel: 0
+    baseValue: 0.5
+    valueMultiplier: 1.1
+    valueIncrementPerLevel: 0
+    baseCost: 10
+    costMultiplier: 1.15
+  shipSpeed:
+    displayName: Ship Speed
+    unitSuffix: mkph
+    startingLevel: 1
+    maxLevel: 0
+    baseValue: 1
+    valueMultiplier: 1.05
+    valueIncrementPerLevel: 0
+    baseCost: 15
+    costMultiplier: 1.2
+  shipCount:
+    displayName: Ship Count
+    unitSuffix: 
+    startingLevel: 1
+    maxLevel: 0
+    baseValue: 1
+    valueMultiplier: 1
+    valueIncrementPerLevel: 1
+    baseCost: 50
+    costMultiplier: 1.5

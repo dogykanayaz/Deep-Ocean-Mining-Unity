@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7618485c4b99ec049b0859ac2135a9aa, type: 3}
+  m_Name: Site_HydrothermalVent
+  m_EditorClassIdentifier: Assembly-CSharp::DeepOceanMining.Data.MiningSiteData
+  siteId: hydrothermal_vent
+  displayName: Hidrotermal Baca
+  description: 
+  icon: {fileID: 0}
+  resource: {fileID: 11400000, guid: b66473c32eeca1c4ba4f72fcd96bfdb1, type: 2}
+  unlockOrder: 2
+  unlockCost: 200
+  unlockedByDefault: 0
+  travelTime: 8
+  miningRate:
+    displayName: Mining Rate
+    unitSuffix: /sec
+    startingLevel: 1
+    maxLevel: 0
+    baseValue: 0.5
+    valueMultiplier: 1.1
+    valueIncrementPerLevel: 0
+    baseCost: 10
+    costMultiplier: 1.15
+  shipSpeed:
+    displayName: Ship Speed
+    unitSuffix: mkph
+    startingLevel: 1
+    maxLevel: 0
+    baseValue: 1
+    valueMultiplier: 1.05
+    valueIncrementPerLevel: 0
+    baseCost: 15
+    costMultiplier: 1.2
+  shipCount:
+    displayName: Ship Count
+    unitSuffix: 
+    startingLevel: 1
+    maxLevel: 0
+    baseValue: 1
+    valueMultiplier: 1
+    valueIncrementPerLevel: 1
+    baseCost: 50
+    costMultiplier: 1.5

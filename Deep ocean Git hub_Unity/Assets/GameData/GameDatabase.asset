@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e337f5eaef49c4d856f6c680aaec27, type: 3}
+  m_Name: GameDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::DeepOceanMining.Data.GameDatabase
+  balance: {fileID: 11400000, guid: 6bee95f798d20d94f94dbb72aa24e6f5, type: 2}
+  resources:
+  - {fileID: 11400000, guid: 87f56904227b54a4cb2d60cac1e875c2, type: 2}
+  - {fileID: 11400000, guid: b66473c32eeca1c4ba4f72fcd96bfdb1, type: 2}
+  - {fileID: 11400000, guid: 8b0e6bcbe78261747b2a8e541f3dfad5, type: 2}
+  sites:
+  - {fileID: 11400000, guid: 319ae1bbb5cd7af4096dd1e4dee33165, type: 2}
+  - {fileID: 11400000, guid: 3c8475a3e4f2143429ab681bab512dd3, type: 2}
+  - {fileID: 11400000, guid: ab3cdb798aabf2c4182b94734a642a71, type: 2}
